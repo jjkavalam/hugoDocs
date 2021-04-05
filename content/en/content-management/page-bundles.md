@@ -158,8 +158,6 @@ type as a content resource as long as it is a content type recognized by Hugo.
 ```text
 content/
 ├── branch-bundle-1
-│   ├── branch-content1.md
-│   ├── branch-content2.md
 │   ├── image1.jpg
 │   ├── image2.png
 │   └── _index.md
@@ -173,8 +171,7 @@ In the above example `content/` directory, there are two branch
 bundles (and a leaf bundle):
 
 `branch-bundle-1`
-: This branch bundle has the `_index.md`, two
-    other content Markdown files and two image files.
+: This branch bundle has the `_index.md` and two image files.
 
 `branch-bundle-2`
 : This branch bundle has the `_index.md` and a
